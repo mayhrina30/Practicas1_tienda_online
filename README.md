@@ -1,16 +1,43 @@
-# Mi Tienda de Ropa
+#Parcial de Practicas Profecionales 1
+# 🛍️ Mi Tienda de Ropa
 
-Este es un sitio web de e-commerce de ropa dividido por categorías. Esta sección está dedicada a ropa para hombres.
+¡Bienvenido a la sección masculina de **Mi Tienda de Ropa**! 👕👖  
+Un sitio web moderno, intuitivo y responsive, pensado para brindar la mejor experiencia de compra online.
 
-## Tecnologías usadas
+---
 
-- HTML
-- CSS
-- JavaScript
+## ✨ Características
 
-## Cómo usar
+- 🎯 **Interfaz clara y elegante**
+- 👩🏻‍🦰 **Sección exclusiva para ropa de mujer**
+- 🧥 **Sección exclusiva para ropa de hombres**
+- 🛒 Botones de **"Agregar al Carrito"** listos para futuras funcionalidades
+- 🌐 Navegación fluida entre secciones
 
-Abrí el archivo `index.html` en tu navegador para ver el sitio.
+---
 
-## Autor
+## 💻 Tecnologías utilizadas
 
+| Lenguaje / Herramienta | Descripción |
+|------------------------|-------------|
+| 🌐 HTML5               | Estructura del sitio web |
+| 🎨 CSS3                | Estilos y diseño visual |
+| ✨ JavaScript (pronto) | Para agregar funcionalidad interactiva |
+| 📁 Git + GitHub        | Control de versiones y colaboración |
+
+---
+
+## 📸 Vista previa
+
+> Puedes abrir el archivo `hombres.html` en tu navegador para ver cómo se ve el sitio.
+
+![Preview](camisa-hombre.jpg)
+
+---
+
+## 🚀 Cómo usar este proyecto
+
+1. Cloná el repositorio:
+
+```bash
+git clone https://github.com/tu-usuario/mi-tienda-ropa.git
