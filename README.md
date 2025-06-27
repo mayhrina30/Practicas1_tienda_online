@@ -1,4 +1,5 @@
 *#Parcial de Practicas Profecionales 1*
+👩🏽‍🔧 *# Usamos Metodologia Scrum*
 # 🛍️ Mi Tienda de Ropa
 
 ¡Bienvenido a la sección masculina de **Mi Tienda de Ropa**! 👕👖  
@@ -41,3 +42,5 @@ Un sitio web moderno, intuitivo y responsive, pensado para brindar la mejor expe
 
 ```bash
 git clone https://github.com/tu-usuario/mi-tienda-ropa.git
+
+<h3>Integrnates/<h3>
