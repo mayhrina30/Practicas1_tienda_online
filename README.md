@@ -1,0 +1,16 @@
+# Mi Tienda de Ropa
+
+Este es un sitio web de e-commerce de ropa dividido por categorías. Esta sección está dedicada a ropa para hombres.
+
+## Tecnologías usadas
+
+- HTML
+- CSS
+- JavaScript
+
+## Cómo usar
+
+Abrí el archivo `index.html` en tu navegador para ver el sitio.
+
+## Autor
+
