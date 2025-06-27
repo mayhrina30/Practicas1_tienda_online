@@ -1,4 +1,4 @@
-##Parcial de Practicas Profecionales 1
+*#Parcial de Practicas Profecionales 1*
 # 🛍️ Mi Tienda de Ropa
 
 ¡Bienvenido a la sección masculina de **Mi Tienda de Ropa**! 👕👖  
