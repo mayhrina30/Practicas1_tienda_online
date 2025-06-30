@@ -32,7 +32,7 @@ Un sitio web moderno, intuitivo y responsive, pensado para brindar la mejor expe
 
 > Puedes abrir el archivo `hombres.html` en tu navegador para ver cómo se ve el sitio.
 
-![Preview](camisa-hombre.jpg)
+![Preview](bannerhombres.jpeg))
 
 
 ---
