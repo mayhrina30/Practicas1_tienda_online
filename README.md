@@ -30,9 +30,10 @@ Un sitio web moderno, intuitivo y responsive, pensado para brindar la mejor expe
 
 ## 📸 Vista previa
 
-> Puedes abrir el archivo `hombres.html` en tu navegador para ver cómo se ve el sitio.
+<p align="center">
+  <img src="https://github.com/mayhrina30/Practicas1_tienda_online/blob/master/image/bannerhombres.jpeg?raw=true" alt="Banner hombres" width="500"/>
+</p>
 
-![Preview](bannerhombreshttps://github.com/mayhrina30/Practicas1_tienda_online/blob/master/image/bannerhombres.jpeg))
 
 
 ---
