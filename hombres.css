@@ -1,0 +1,149 @@
+/* Estilos específicos para la página de Hombres */
+
+/* Hero Section para la categoría */
+.category-hero {
+    background: url('image/trajes.jpg') no-repeat center center/cover; 
+    color: white;
+    padding: 80px 20px;
+    margin-top: 20px; 
+    text-align: center;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.category-hero h1 {
+    font-size: 3rem; /* Ligeramente más pequeño que el H1 principal, pero aún destacado */
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.category-hero p {
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+
+nav ul li a[href="hombres.html"] {
+    color: #f0a500; 
+
+    border-bottom: 2px solid #f0a500;
+    padding-bottom: 3px;
+}
+
+/*
+.products .product-card .add-to-cart {
+    background-color: #009688;
+}
+
+.products .product-card .add-to-cart:hover {
+    background-color: #00796B;
+}
+*/
+
+@media (max-width: 768px) {
+    .category-hero {
+        padding: 60px 15px;
+    }
+
+    .category-hero h1 {
+        font-size: 2.2rem;
+    }
+
+    .category-hero p {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .category-hero h1 {
+        font-size: 1.8rem;
+    }
+
+    .category-hero p {
+        font-size: 1rem;
+    }
+}
+
+/* Hero Section para la categoría */
+.category-hero {
+    background-image: url('image/trajes.jpg'); 
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+
+    color: white;
+    padding: 80px 20px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+    position: relative; 
+    z-index: 1; 
+}
+
+/* Overlay para hacer el texto más legible sobre la imagen */
+.category-hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); 
+    z-index: -1; 
+    border-radius: 8px; 
+}
+
+
+.category-hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.category-hero p {
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); 
+}
+
+
+nav ul li a[href="hombres.html"] {
+    color: #f0a500;
+    border-bottom: 2px solid #f0a500;
+    padding-bottom: 3px;
+}
+
+
+@media (max-width: 768px) {
+    .category-hero {
+        padding: 60px 15px;
+    }
+
+    .category-hero h1 {
+        font-size: 2.2rem;
+    }
+
+    .category-hero p {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .category-hero h1 {
+        font-size: 1.8rem;
+    }
+
+    .category-hero p {
+        font-size: 1rem;
+    }
+}

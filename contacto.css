@@ -1,0 +1,124 @@
+/* General body styling for contact page */
+body {
+    background-color: #f4f4f4; /* Consistent with main style */
+    color: #333; /* Consistent text color */
+}
+
+/* Header Navbar Customization */
+/* This will ensure the navbar in contact.html matches the index.html */
+.custom-navbar {
+    background-color: #333 !important; /* Override Bootstrap's bg-primary to match index.html header */
+    color: white;
+}
+
+.custom-navbar .navbar-brand.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white; /* Ensure logo color is white */
+}
+
+.custom-navbar .nav-link {
+    color: white; /* Ensure nav links are white */
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.custom-navbar .nav-link:hover,
+.custom-navbar .nav-link.active {
+    color: #f0a500 !important; /* Consistent hover and active color */
+}
+
+/* Main Content Styling */
+.main.container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+h1.text-center {
+    color: #333; /* Consistent heading color */
+    font-size: 2.5rem; /* Match product section heading size */
+    margin-bottom: 2rem;
+}
+
+p.text-center {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 2rem;
+}
+
+/* Contact Information Section */
+.row.mb-5 h4 {
+    color: #333;
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+}
+
+.list-unstyled li {
+    font-size: 1rem;
+    margin-bottom: 0.7rem;
+    color: #555;
+}
+
+.list-unstyled li i {
+    color: #f0a500; /* Use accent color for icons */
+    width: 20px; /* Align icons */
+    text-align: center;
+}
+
+/* Map Embed */
+.ratio.ratio-16x9 {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Consistent with product cards */
+}
+
+iframe {
+    border: none; /* Remove default iframe border */
+}
+
+/* Form Styling */
+form h4 {
+    color: #333;
+    font-size: 1.7rem;
+    margin-bottom: 1.5rem;
+}
+
+.form-label {
+    font-weight: bold;
+    color: #333;
+}
+
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 0.75rem 1rem;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075);
+}
+
+.form-control:focus {
+    border-color: #f0a500; /* Accent color on focus */
+    box-shadow: 0 0 0 0.25rem rgba(240, 165, 0, 0.25); /* Light accent shadow on focus */
+}
+
+.btn-primary {
+    background-color: #f0a500; /* Consistent button color */
+    border-color: #f0a500;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #e49400; /* Consistent button hover color */
+    border-color: #e49400;
+}
+
+/* Footer Consistency */
+footer.bg-primary {
+    background-color: #333 !important; /* Override Bootstrap's bg-primary to match index.html footer */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
